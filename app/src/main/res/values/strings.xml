@@ -16,4 +16,6 @@
     <string name="open_fragment_aa">Open fragment AA</string>
     <string name="open_fragment_a">Open fragment A</string>
     <string name="open_fragment_ab">Open fragment AB</string>
+    <string name="open_fragment_bb">Open Fragment BB</string>
+    <string name="send_color">send Color</string>
 </resources>

@@ -5,9 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".fragments.FragmentBA">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/fragment_b_a" />
+    <Button
+        android:id="@+id/openFragmentBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/open_fragment_bb" />
 
 </FrameLayout>

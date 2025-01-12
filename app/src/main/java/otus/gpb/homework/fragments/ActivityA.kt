@@ -19,13 +19,10 @@ class ActivityA : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityABinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragmentContainer, FragmentA())
             .addToBackStack("FragmentA")
             .commit()
-    }
-
-    override fun getOnBackInvokedDispatcher(): OnBackInvokedDispatcher {
-        return super.getOnBackInvokedDispatcher()
     }
 }

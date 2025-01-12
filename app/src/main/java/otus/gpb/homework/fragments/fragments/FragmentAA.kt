@@ -5,7 +5,6 @@ import android.view.View
 import android.widget.Button
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import otus.gpb.homework.fragments.ColorGenerator
 import otus.gpb.homework.fragments.R
 
